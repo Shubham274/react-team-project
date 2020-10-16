@@ -1,78 +1,76 @@
-.container{
-    width:calc(25% - 10px);
-    padding: 5px;
-    position: relative;
-    min-height: 270px;
-    max-height: 300px;
-    margin-bottom: 10px;
-    border: none;
-    background: inherit;
+.container {
+  width: calc(25% - 10px);
+  padding: 5px;
+  position: relative;
+  min-height: 270px;
+  max-height: 300px;
+  margin-bottom: 10px;
+  border: none;
+  background: inherit;
 }
-
-
 
 .module_card {
-    min-height: 244px;
-    border-radius: 10px;
-    box-shadow: 0 0 2px #0096ff;
-    background: #ffffff;
-    padding: 12px;
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+  min-height: 244px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #0096ff;
+  background: #ffffff;
+  padding: 12px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.module_logo{
-    margin:8px auto;
+.module_logo {
+  margin: 8px auto;
 }
 
-.module_card .module_logo img{
-    height: 75px;
-    width: 75px;
+.module_card .module_logo img {
+  height: 75px;
+  width: 75px;
 }
 
-.info{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.mentor_pic{
-    height: 30px !important;
-    width: 30px !important;
-    border-radius: 50px;
-    margin-right: 10px;
+.mentor_pic {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50px;
+  margin-right: 10px;
 }
-.module_name{
-    font-size: 1.1rem;
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: 600;
-    min-height: 53px;
-    opacity: 0.6;
-    font-family: 'Raleway', sans-serif;
-}
-
-.Modulecard_detail{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.module_name {
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  min-height: 53px;
+  opacity: 0.6;
+  font-family: "Raleway", sans-serif;
 }
 
-.mentor_name{
-    font-size: 13px;
-    font-weight: 600;
-    display: flex;
-    min-height: 44px;
-    align-items: center;
+.Modulecard_detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.duration{
-    font-size: 10px;
-    letter-spacing: 1px;
-    opacity: 0.6;
-    font-weight: 800;
-    margin: 8px;
+.mentor_name {
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+}
+
+.duration {
+  font-size: 10px;
+  letter-spacing: 1px;
+  opacity: 0.6;
+  font-weight: 800;
+  margin: 8px;
 }

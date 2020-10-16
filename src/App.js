@@ -6,6 +6,8 @@ import HomePage from './Container/HomePage/HomePage';
 import Footer from './Component/Footer/Footer';
 import ClassRoomPage from './Container/ClassRoomPage/ClassRoomPage';
 import ModuleProgress from './Container/ModuleProgress/ModuleProgress';
+import Units from './Container/Units/Units';
+import Curriculum from './Component/Curriculum/Curriculum';
 
 const App = () => {
 	return (
@@ -18,6 +20,8 @@ const App = () => {
 						<Route exact path='/home' component={HomePage}></Route>
 						<Route path="/classroom" component={ClassRoomPage} />
 						<Route path="/modules" component={ModuleProgress} />
+						<Route path="/units" component={Units} />
+						<Route path="/curriculum" component={Curriculum} />
 						<Route path="/jobs" />
 
 					</Switch>
